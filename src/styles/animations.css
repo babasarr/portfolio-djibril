@@ -1,0 +1,185 @@
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(40px, 28px) scale(1.15);
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--ac) 60%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 9px transparent;
+  }
+}
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+.hero:before {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -60px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: var(--ac);
+  opacity: 0.12;
+  filter: blur(60px);
+  animation: drift 9s ease-in-out infinite;
+  pointer-events: none;
+}
+.hero .w {
+  position: relative;
+}
+.hero .w > * {
+  animation: fadeUp 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.hero .w > :nth-child(2) {
+  animation-delay: 0.1s;
+}
+.hero .w > :nth-child(3) {
+  animation-delay: 0.2s;
+}
+.hero .w > :nth-child(4) {
+  animation-delay: 0.3s;
+}
+.hero .w > :nth-child(5) {
+  animation-delay: 0.4s;
+}
+.tag:before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ac);
+  margin-right: 8px;
+  animation: pulse 1.6s infinite;
+}
+.btn,
+.sk,
+.stat,
+.pj,
+.ct,
+.tab,
+.th {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+.btn:hover,
+.th:hover {
+  transform: translateY(-2px);
+}
+.sk:hover,
+.stat:hover,
+.ct:hover {
+  transform: translateY(-4px);
+  border-color: var(--ac);
+}
+.pj:hover {
+  transform: translateY(-6px);
+  border-color: var(--ac);
+  box-shadow: 0 14px 34px -14px color-mix(in srgb, var(--ac) 45%, transparent);
+}
+.sk {
+  animation: fadeUp 0.45s ease both;
+}
+.sk svg {
+  transition: transform 0.35s ease;
+}
+.sk:hover svg {
+  transform: rotate(-8deg) scale(1.12);
+}
+.rv {
+  opacity: 0;
+  translate: 0 26px;
+  transition:
+    opacity 0.7s ease,
+    translate 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+.rv.in {
+  opacity: 1;
+  translate: none;
+}
+.ch i {
+  transform-origin: bottom;
+  animation: grow 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.ch i:nth-child(2) {
+  animation-delay: 0.08s;
+}
+.ch i:nth-child(3) {
+  animation-delay: 0.16s;
+}
+.ch i:nth-child(4) {
+  animation-delay: 0.24s;
+}
+.ch i:nth-child(5) {
+  animation-delay: 0.32s;
+}
+.ch i:nth-child(6) {
+  animation-delay: 0.4s;
+}
+.ch i:nth-child(7) {
+  animation-delay: 0.48s;
+}
+.hb u {
+  animation: pulse 1.8s infinite;
+}
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+.dl {
+  display: inline-block;
+  animation: nudge 1.5s ease-in-out infinite;
+}
+.btn:hover .dl {
+  animation-duration: 0.55s;
+  color: var(--ac);
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before {
+    animation: none !important;
+    transition: none !important;
+  }
+  .rv {
+    opacity: 1;
+    transform: none;
+  }
+}
