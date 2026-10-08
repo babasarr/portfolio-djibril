@@ -31,4 +31,18 @@ export const projects: Project[] = [
     },
     stack: ['Full stack', 'Volkeno'],
   },
+  {
+    id: 'pitch-palabre',
+    kind: 'web',
+    image: 'projects/pitch_palabre.png',
+    host: 'pitchPalabre.org',
+    title: { fr: 'Pitch Palabre', en: 'Pitch Palabre' },
+    summary: { fr: "PitchPalabre accompagne les entrepreneur.e.s d’afrique francophone dans le 0 to 1 pour les aider à mieux vendre, lever leur 1er fonds et trouver l’adéquation produit marché. Ils conçoivent et implémentent des programmes d’accompagnement en Afrique francophone., réalisé chez Volkeno.", 
+              en: 'PitchPalabre supports entrepreneurs in French-speaking Africa during the 0-to-1 phase to help them sell more effectively, raise their first round of funding, and achieve product-market fit. They design and implement support programs in French-speaking Africa., built at Volkeno.' },
+    points: {
+      fr: ['Environ 30 % du projet développé par mes soins', 'Frontend et backend'],
+      en: ['About 30% of the project built by me', 'Frontend and backend'],
+    },
+    stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
+  },
 ]
