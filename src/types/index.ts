@@ -4,7 +4,7 @@ export type Theme = 'light' | 'dark'
 /** Un texte disponible dans les deux langues. */
 export type Localized<T = string> = Record<Lang, T>
 
-export type IconName = 'react' | 'ts' | 'rtk' | 'laravel' | 'php' | 'node' | 'fb' | 'sql'
+export type IconName = 'html' | 'css' | 'react' | 'ts' | 'redux' | 'js' | 'bootstrap' | 'laravel' | 'php' | 'node' | 'fb' | 'sql' | 'python' | 'git' | 'docker'
 
 export interface Skill {
   icon: IconName
