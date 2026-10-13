@@ -29,6 +29,7 @@ export interface Project {
 export interface Job {
   role: Localized
   company: string | Localized
+  period: Localized
   description: Localized
 }
 
