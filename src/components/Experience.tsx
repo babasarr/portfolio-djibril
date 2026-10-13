@@ -9,7 +9,7 @@ function Job({ job, index }: { job: JobData; index: number }) {
   const ref = useReveal<HTMLDivElement>(index * 90)
   return (
     <div ref={ref}>
-      <b>{tr(job.role)}</b>
+      <b>{tr(job.role) } <span className="period">{tr(job.period)}</span></b>
       <small>{tr(job.company)}</small>
       <p style={{ margin: '4px 0 0' }}>{tr(job.description)}</p>
     </div>

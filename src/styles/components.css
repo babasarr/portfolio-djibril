@@ -333,6 +333,7 @@ h1 span {
 .tl small {
   color: var(--mut);
 }
+.tl .period { font-weight: 400; color: var(--mut); margin-left: 8px; font-size: 0.85rem; }
 .certs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
