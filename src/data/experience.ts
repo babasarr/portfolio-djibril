@@ -16,6 +16,6 @@ export const jobs: Job[] = [
 export const certifications: Certification[] = [
   { name: 'Full Stack Development', issuer: 'ALX-T / Udacity' },
   { name: 'React.js', issuer: 'LinkedIn Learning' },
-  { name: 'Laravel 9', issuer: 'LinkedIn Learning' },
+  { name: 'Laravel ', issuer: 'LinkedIn Learning' },
   { name: 'OpenAI / GPT', issuer: 'LinkedIn Learning' },
 ]

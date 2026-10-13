@@ -9,7 +9,7 @@ export const skills: Skill[] = [
   { icon: 'bootstrap', category: { fr: 'Données', en: 'Frontend' }, name: 'Bootstrap', description: { fr: 'Framework CSS', en: 'CSS framework' } },
   { icon: 'html', category: { fr: 'Données', en: 'Frontend' }, name: 'HTML', description: { fr: 'Langage de balisage', en: 'Markup language' } },
   { icon: 'css', category: { fr: 'Données', en: 'Frontend' }, name: 'CSS', description: { fr: 'Style Sheets', en: 'Style Sheets' } },
-  { icon: 'laravel', category: { fr: 'Backend', en: 'Backend' }, name: 'Laravel', description: { fr: 'API REST, Eloquent, Laravel 9', en: 'REST APIs, Eloquent, Laravel 9' } },
+  { icon: 'laravel', category: { fr: 'Backend', en: 'Backend' }, name: 'Laravel', description: { fr: 'API REST, Eloquent, Laravel', en: 'REST APIs, Eloquent, Laravel' } },
   { icon: 'php', category: { fr: 'Backend', en: 'Backend' }, name: 'PHP', description: { fr: 'Applications web côté serveur', en: 'Server-side web applications' } },
   { icon: 'node', category: { fr: 'Backend', en: 'Backend' }, name: 'Node.js', description: { fr: 'APIs, Cloud Functions, Nodemailer', en: 'APIs, Cloud Functions, Nodemailer' } },
   { icon: 'fb', category: { fr: 'Données', en: 'Data' }, name: 'Firebase / Firestore', description: { fr: 'onSnapshot, index composites, migrations', en: 'onSnapshot, composite indexes, migrations' } },
