@@ -4,6 +4,6 @@ export const site = {
   email: 'djibrilsarr22@gmail.com',
   linkedin: 'https://www.linkedin.com/in/djibril-sarr',
   github: 'https://github.com/babasarr',
-  cv: '/CV_Djibril_Sarr_FullStack.pdf', // fichier dans /public
+  cv: 'CV_Djibril_Sarr_FullStack.pdf', // fichier dans /public
   cvFilename: 'CV_Djibril_Sarr_FullStack.pdf',
 } as const
