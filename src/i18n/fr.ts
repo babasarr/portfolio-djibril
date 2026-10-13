@@ -5,7 +5,7 @@ const fr: Translations = {
   hero: {
     tag: 'Disponible · Dakar, Sénégal',
     title: ['Je conçois des applications web ', 'fiables et rapides', '.'],
-    lead: "Développeur Full Stack senior, spécialisé en React/TypeScript côté frontend et Laravel ou Node.js côté backend. Environ 8 ans d'expérience.",
+    lead: "Développeur Full Stack senior, spécialisé en React/TypeScript côté frontend et Laravel côté backend. Environ 8 ans d'expérience.",
     contact: 'Me contacter',
     projects: 'Voir mes projets',
     cv: 'Mon CV',

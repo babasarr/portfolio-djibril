@@ -5,7 +5,7 @@ const en: Translations = {
   hero: {
     tag: 'Available · Dakar, Senegal',
     title: ['I build ', 'reliable, fast', ' web applications.'],
-    lead: 'Senior Full Stack developer specialised in React/TypeScript on the frontend and Laravel or Node.js on the backend. About 8 years of experience.',
+    lead: 'Senior Full Stack developer specialised in React/TypeScript on the frontend and Laravel on the backend. About 8 years of experience.',
     contact: 'Get in touch',
     projects: 'See my work',
     cv: 'My CV (FR)',
