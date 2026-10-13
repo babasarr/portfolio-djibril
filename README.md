@@ -16,7 +16,7 @@ npm run preview   # prévisualise le build
 
 ```
 public/
-  CV_Djibril_Sarr.pdf        CV téléchargé par le bouton « Mon CV »
+  CV_Djibril_Sarr_FullStack.pdf        CV téléchargé par le bouton « Mon CV »
 src/
   main.tsx                   point d'entrée (providers + styles)
   App.tsx                    assemble les sections
