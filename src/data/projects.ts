@@ -65,7 +65,7 @@ export const projects: Project[] = [
     id: 'cfmpl',
     kind: 'dash',
     image: '',
-    host: 'app.ecole',
+    host: 'cfmpl',
     title: { fr: 'CFMPL', en: 'CFMPL' },
     summary: { fr: 'Ce projet est une plateforme de dématérialisation des process de CFMLP . Réalisé chez Volkeno.', 
                en: 'This project is a platform for digitalizing the CFMLP processes . Built at Volkeno.' },
