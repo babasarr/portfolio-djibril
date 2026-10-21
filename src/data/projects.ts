@@ -27,7 +27,7 @@ export const projects: Project[] = [
     summary: { fr: "Écoles au Sénégal (EAS) est une plateforme innovante qui vise à réduire les inégalités en matière d'accès à une éducation de qualité. Elle s'engage à promouvoir les matières scientifiques tout en encourageant la représentativité féminine dans le secteur de l'éducation. Réalisé chez Volkeno.", 
                en: 'Schools in Senegal (EAS) is an innovative platform that aims to reduce inequalities in access to quality education. It is committed to promoting science subjects while encouraging greater representation of women in the education sector. Built at Volkeno.' },
     points: {
-      fr: ['Environ 90 % du projet développé par mes soins', 'Frontend et backend'],
+      fr: ['J’ai développé environ 90 % du projet', 'Frontend et backend'],
       en: ['About 90% of the project built by me', 'Frontend and backend'],
     },
     stack: ['Laravel', 'PHP', 'Volkeno'],
@@ -41,7 +41,7 @@ export const projects: Project[] = [
     summary: { fr: "PitchPalabre accompagne les entrepreneur.e.s d’afrique francophone dans le 0 to 1 pour les aider à mieux vendre, lever leur 1er fonds et trouver l’adéquation produit marché. Ils conçoivent et implémentent des programmes d’accompagnement en Afrique francophone., réalisé chez Volkeno.", 
               en: 'PitchPalabre supports entrepreneurs in French-speaking Africa during the 0-to-1 phase to help them sell more effectively, raise their first round of funding, and achieve product-market fit. They design and implement support programs in French-speaking Africa., built at Volkeno.' },
     points: {
-      fr: ['Environ 30 % du projet développé par mes soins', 'Frontend et backend'],
+      fr: ['J’ai développé environ 30 % du projet', 'Frontend et backend'],
       en: ['About 30% of the project built by me', 'Frontend and backend'],
     },
     stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
@@ -58,6 +58,20 @@ export const projects: Project[] = [
     points: {
       fr: ['Création d\'événement facile', 'Billetterie flexible', 'Analyses détaillées', 'Gestion des participants'],
       en: ['Easy event creation', 'Flexible ticketing', 'Detailed analytics', 'Participant management'],
+    },
+    stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
+  },
+  {
+    id: 'cfmpl',
+    kind: 'dash',
+    image: '',
+    host: 'app.ecole',
+    title: { fr: 'CFMPL', en: 'CFMPL' },
+    summary: { fr: 'Ce projet est une plateforme de dématérialisation des process de CFMLP . Réalisé chez Volkeno.', 
+               en: 'This project is a platform for digitalizing the CFMLP processes . Built at Volkeno.' },
+    points: {
+      fr: ['Gestion des elèves', 'Gestion des enseignants', 'Gestion des cours', 'Gestion des examens','Gestion des notes', 'Génération des bulletins'],
+      en: ['Student management', 'Teacher management', 'Course management', 'Exam management','Grade management', 'Report card generation'],
     },
     stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
   },
