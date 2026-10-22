@@ -15,7 +15,7 @@ export const projects: Project[] = [
       fr: ['Facturation automatisée, numérotation AAAA-0001', 'Présences, évaluations et bulletins', 'Tableaux de bord en temps réel', 'Relances de factures par email'],
       en: ['Automated invoicing, AAAA-0001 numbering', 'Attendance, evaluations and report cards', 'Real-time dashboards', 'Invoice reminder emails'],
     },
-    stack: ['React', 'TypeScript', 'Firebase', 'RTK Query','Volkeno'],
+    stack: ['React', 'TypeScript', 'Firebase', 'RTK Query'],
   },
   {
     id: 'ecoles-au-senegal',
@@ -30,7 +30,7 @@ export const projects: Project[] = [
       fr: ['J’ai développé environ 90 % du projet', 'Frontend et backend'],
       en: ['About 90% of the project built by me', 'Frontend and backend'],
     },
-    stack: ['Laravel', 'PHP', 'Volkeno'],
+    stack: ['Laravel', 'PHP'],
   },
   {
     id: 'pitch-palabre',
@@ -44,7 +44,7 @@ export const projects: Project[] = [
       fr: ['J’ai développé environ 30 % du projet', 'Frontend et backend'],
       en: ['About 30% of the project built by me', 'Frontend and backend'],
     },
-    stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
+    stack: ['React', 'TypeScript', 'Laravel'],
   },
   {
     id: 'piyti',
@@ -59,7 +59,7 @@ export const projects: Project[] = [
       fr: ['Création d\'événement facile', 'Billetterie flexible', 'Analyses détaillées', 'Gestion des participants'],
       en: ['Easy event creation', 'Flexible ticketing', 'Detailed analytics', 'Participant management'],
     },
-    stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
+    stack: ['React', 'TypeScript', 'Laravel'],
   },
   {
     id: 'cfmpl',
@@ -73,6 +73,21 @@ export const projects: Project[] = [
       fr: ['Gestion des elèves', 'Gestion des enseignants', 'Gestion des cours', 'Gestion des examens','Gestion des notes', 'Génération des bulletins'],
       en: ['Student management', 'Teacher management', 'Course management', 'Exam management','Grade management', 'Report card generation'],
     },
-    stack: ['React', 'TypeScript', 'Laravel', 'Volkeno'],
+    stack: ['React', 'TypeScript', 'Laravel'],
+  },
+  {
+    id: 'EasyMarket',
+    kind: 'dash',
+    image: 'projects/easyMarket.png',
+    host: 'EasyMarket',
+    url: 'https://easymarket.sn/',
+    title: { fr: 'EasyMarket', en: 'EasyMarket' },
+    summary: { fr: 'EasyMarket est une boîte à outils des vendeurs qui permet de disposer d’un site e-commerce en moins de 2 semaines et un outil de gestion performant. . Réalisé chez Volkeno.', 
+               en: 'EasyMarket is a toolkit for sellers that allows them to have an e-commerce site in less than 2 weeks and a powerful management tool. Built at Volkeno.' },
+    points: {
+      fr: ['Suivi des ventes et dépenses', 'Gestion du stock', 'Factures et tickets de caisse', 'Tableau de bord','Gestion d\'équipe', 'Import de produits'],
+      en: ['Sales and expense tracking', 'Inventory management', 'Invoice and receipt management', 'Dashboard','Team management', 'Product import'],
+    },
+    stack: ['React', 'TypeScript', 'Django', 'Python'],
   },
 ]
