@@ -35,4 +35,5 @@ export const certifications: Certification[] = [
   { name: 'React.js', issuer: 'LinkedIn Learning' },
   { name: 'Laravel ', issuer: 'LinkedIn Learning' },
   { name: 'OpenAI / GPT', issuer: 'LinkedIn Learning' },
+  { name: 'Claude Academy: Claude 101', issuer: 'Anthropic' },
 ]
